@@ -12,7 +12,6 @@
   <form id= "MFTF"  method= "post"> <!--MFTF = My first test form -->
 
     <fieldset id="fieldset_style">
-		<legend id="legend_style">Test Form</legend>
         <div class="input_form">
 		<label> Name</label>
         <input type ="text"
@@ -25,23 +24,23 @@
                autofocus/>
         </div>
 <!--Якщо закоментувати 2 нижні <fieldset> то перший починає реагувати і виконувати атрибути -->
-		<label for ="email"> Email</label>
-       <input type="email"
+        <label for ="email"> Email</label>
+        <input type="email"
               name="Email"
               id= "email"
               placeholder ="Writhe your Email"
               pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
               title="Writh correct email please"
-              required/> <!--Довільні Англ літ. та символи від 0-9 знак "@" знову довільий текс "." 2-3 літери-->
+              required/>
 		<label for ="age"> Age</label>
-		<input type="number"
+        <input type="number"
                name ="age" id="age"
                placeholder ="How old are u?"
                max="100"
                min="1"
+               title="From 1 to 100"
                required>
-		<!-- or "pattern="\d{1,9}\d{0,9}\d{0}""-->
-	  <input type="submit">
+        <input type="submit">
     </fieldset>
   </form>
 </div>

@@ -1,25 +1,26 @@
 #test_form {
     margin: 300px auto 0 auto;
-    width: 200px;
+    width: 250px;
     height: auto;
-    padding: 10px;
+    padding: 50px;
     background: linear-gradient(to top, black,darkgoldenrod, purple, black);
-    opacity: 0.8;
+    border-radius: 20px;
+    opacity: 1;
 ;
 }
 
 #body_form {
     background-color: black;
+
 }
 
 #fieldset_style {
+    border: white hidden;
+    width: 75px;
 
-}
-
-#legend_style {
-    color: azure;
 }
 
 .input_form {
-    color: purple;
+    color: white;
+    font-size: 20px;
 }
