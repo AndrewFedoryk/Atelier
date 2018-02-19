@@ -1,0 +1,123 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.clearfix:after{
+    content:'';
+    display:table;
+    width: 100%;
+    clear: both;
+}
+div{
+    box-sizing: border-box;
+}
+header {
+    background: url("../Images/homebackground.jpg") no-repeat fixed center center;
+    background-size: cover;
+    padding-bottom: 160px;
+
+
+}
+.conteiner{
+    width: 1250px;
+    margin: 0 auto;
+}
+.logo {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    float: left;
+}
+nav {
+    float: right;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 41px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #fc9403;
+    padding: 10px 5px 10px 5px;
+    opacity: 0.7;
+
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title_first {
+    font-size: 75px;
+    color: #748a95;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #fc9403;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+
+.buttom{
+    background: #fc9403;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    width: 240px;
+    padding: 20px 0 20px 0;
+    margin: 150px auto 0;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:18px;
+    opacity: 0.7;
+}
+
+#about_atelie {
+     background: linear-gradient(to bottom,#fc9403,#583d81) fixed center center;
+
+}
+
+.title {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 50px 0 50px 0;
+}
+
+.atelieroom{
+    float: left;
+    padding: 0 50px 0 20px;
+}
+
+#about_text {
+    font-size: 20px;
+    text-indent: 1.5em;
+    padding-bottom: 240px;
+    margin: 0 auto;
+}
+
+#portfolio {
+    background: linear-gradient(to top,#583d81,#fc9403) fixed center center;
+}
