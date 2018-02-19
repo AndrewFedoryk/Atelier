@@ -121,3 +121,15 @@ h1 {
 #portfolio {
     background: linear-gradient(to top,#583d81,#fc9403) fixed center center;
 }
+
+.portfoli_text{
+    font-size: 50px;
+    color: #748a95;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.works{
+
+
+}

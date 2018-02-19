@@ -5,42 +5,58 @@
 	<meta charset="utf-8">
 	<title>Form</title>
     <link rel="stylesheet" href="css/form.css" type="text/css">
+    <script src="main.js"></script>
 </head>
 
 <body id="body_form">
 <div id="test_form">
-  <form id= "MFTF"  method= "post"> <!--MFTF = My first test form -->
-
+  <form id= "MFTF" name="MFTF" method= "post" onsubmit="mathtext()"> <!--MFTF = My first test form -->
     <fieldset id="fieldset_style">
         <div class="input_form">
-		<label> Name</label>
-        <input type ="text"
-               name = "name"
-               id="Name"
-               required
-               placeholder ="Writhe your Name"
-               pattern="[A-Z][a-z]{1,19}"
-               title="Write the name with a capital letter and no more than 20 characters"
-               autofocus/>
-        </div>
-<!--Якщо закоментувати 2 нижні <fieldset> то перший починає реагувати і виконувати атрибути -->
-        <label for ="email"> Email</label>
-        <input type="email"
-              name="Email"
-              id= "email"
-              placeholder ="Writhe your Email"
-              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
-              title="Writh correct email please"
-              required/>
-		<label for ="age"> Age</label>
-        <input type="number"
-               name ="age" id="age"
-               placeholder ="How old are u?"
-               max="100"
-               min="1"
-               title="From 1 to 100"
+		<!--<label> Name</label>-->
+        <!--<input type ="text"-->
+               <!--name = "name"-->
+               <!--id="Name"-->
+               <!--required-->
+               <!--placeholder ="Writhe your Name"-->
+               <!--pattern="[A-Z][a-z]{1,19}"-->
+               <!--title="Write the name with a capital letter and no more than 20 characters"-->
+               <!--autofocus/>-->
+<!--&lt;!&ndash;Якщо закоментувати 2 нижні <fieldset> то перший починає реагувати і виконувати атрибути &ndash;&gt;-->
+        <!--<label for ="email"> Email</label>-->
+        <!--<input type="email"-->
+              <!--name="Email"-->
+              <!--id= "email"-->
+              <!--placeholder ="Writhe your Email"-->
+              <!--pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"-->
+              <!--title="Writh correct email please"-->
+              <!--required/>-->
+		<!--<label for ="age"> Age</label>-->
+        <!--<input type="number"-->
+               <!--name ="age" id="age"-->
+               <!--placeholder ="How old are u?"-->
+               <!--max="100"-->
+               <!--min="1"-->
+               <!--title="From 1 to 100"-->
+               <!--required>-->
+        <!--&lt;!&ndash;<input type="submit">&ndash;&gt;-->
+        <label for ="RandomText">Random Text</label>
+            <a href="#" id="gen" onclick=random()>Випадкові літери</a>
+        <input type="text"
+               name="RandomText"
+               id="RandomText"
+               value=""
+               readonly
                required>
+            <label for="ReverseText">ReverseText</label>
+            <input type="text"
+                   name="ReverseText"
+                   id="ReverseText"
+                   placeholder="Writh reverse text from RandomText"
+                   required>
+        </div>
         <input type="submit">
+
     </fieldset>
   </form>
 </div>
