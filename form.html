@@ -10,7 +10,7 @@
 
 <body id="body_form">
 <div id="test_form">
-  <form id= "MFTF" name="MFTF" method= "post" onsubmit="mathtext()"> <!--MFTF = My first test form -->
+  <form id= "MFTF" name="MFTF" method= "post" onsubmit=" mathtext()"> <!--MFTF = My first test form -->
     <fieldset id="fieldset_style">
         <div class="input_form">
 		<!--<label> Name</label>-->
@@ -41,7 +41,7 @@
                <!--required>-->
         <!--&lt;!&ndash;<input type="submit">&ndash;&gt;-->
         <label for ="RandomText">Random Text</label>
-            <a href="#" id="gen" onclick=random()>Випадкові літери</a>
+            <button id="gen" onclick="event.preventDefault(); random1()">Випадкові літери</button>
         <input type="text"
                name="RandomText"
                id="RandomText"

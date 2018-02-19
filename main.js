@@ -22,9 +22,14 @@ function random() {
         text += posible.charAt(Math.floor(Math.random() * posible.length))
     return text;
 }
-    document.getElementById("gen").(function () {
-            document.getElementById("RandomText").value(random())
-        })
+
+function random1(){
+
+    document.getElementById("RandomText").value  = random();
+    }
+
+
+
 
 
 
