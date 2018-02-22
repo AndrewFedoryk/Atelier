@@ -1,17 +1,32 @@
 function mathtext() {
-    // alert("ddd");
-    var randomtext=document.MFTF.RandomText.value;
+    var a=document.MFTF.RandomText.value;
 
-    alert("!!" + randomtext);
-    var reversetext=document.MFTF.ReverseText.value;
-    alert("!!!"+ reversetext);
+    alert("!" + a);
+    var b=document.MFTF.ReverseText.value;
+    alert("!"+ b);
 
-    if (randomtext==reversetext){
-        return true;
+    //var a = randomtext.length;
+    alert("Lenght "+ a.length);
+    //var b = reversetext.length;
+    alert("Lenght "+ b.length);
+
+
+    if (a.length===b.length) {
+        alert("You good bro");
+
+        for (var i = 0; i < a.length; i++) {
+            alert("i = "+i + a.charAt(i));
+            if (a.charAt(i) != b.charAt(a.length -i-1));
+                alert("das");
+                return;
+        }
     }
-    else {
-        return false;
-    }
+            else
+        {
+            alert("Text .")
+        }
+
+
 }
 
 function random() {
@@ -27,13 +42,5 @@ function random1(){
 
     document.getElementById("RandomText").value  = random();
     }
-
-
-
-
-
-
-// console.log("!!!"+random())
-
 
 
