@@ -92,7 +92,7 @@ nav {
 
 .about_atelie{
     background: linear-gradient(to bottom,#fc9403,#583d81) fixed center center;
-    padding-bottom: 150px;
+    padding: 0 50px 150px 0;
 }
 .titles__about{
     font-size: 30px;
@@ -112,5 +112,21 @@ nav {
 
 /*Screen 3*/
 .portfoli {
+    background: linear-gradient(to bottom,#fc9403,#583d81) fixed center center;
+}
+.carousel {
+    margin:auto;
+}
+.carousel-caption-title {
+    color: #1b1e21;
+}
+.carousel-caption-text {
+    color: black;
+    font-weight: 700;
+}
+
+/*Screen 4*/
+
+.services {
     background: linear-gradient(to bottom,#fc9403,#583d81) fixed center center;
 }
