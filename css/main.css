@@ -1,53 +1,47 @@
 /*Specification*/
-
 /*Screen one*/
 body {
-    font-family: sans-serif;
     text-decoration: none;
+    padding: 0;
+    margin: 0;
 }
 
 .header {
     background: url("../Images/homebackground.jpg") no-repeat fixed center center;
-    background-size: cover;
-    padding-top: 20px;
-    padding-bottom: 150px;
-    opacity: 1;
+    background-size:cover;
 }
 
-.logo {
-    width: 200px;
-    height: 200px;
-    opacity: 1;
-
-}
-ul,li{
-    display: block;
-    padding: 5px;
-    margin: 0;
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    color: #fc9403;
+    font-size: 25px;
 }
 
-.menu__item{
-    margin: 70px 1px 0 0;
-    box-sizing: border-box;
-    display: block;
+.header_screen{
+    padding: 20px 0 500px 0;
+    color: #fc9403;
 }
 
-.menu__item a {
-    border: solid white 1px;
-    font-size: 20px;
-    border-radius: 5px;
-    background: #fc9403;
-    padding: 10px 20px 10px 10px;
-    opacity: 0.8;
-    text-decoration: none;
-    color: white;
+#header_screen_title{
+    padding: 100px 0 50px 0;
 }
-nav {
-    text-decoration: none;
+
+
+#header_screan_text{
+
+    padding-top: 100px;
 }
+.navbar-nav {
+    justify-content: space-between;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='255 255 255 255' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 
 .titles{
-    padding-top: 50px;
+    padding: 50px 0 50px 0;
     text-transform: uppercase;
     text-align: center;
 
@@ -65,34 +59,18 @@ nav {
 .titles__text {
     font-size: 30px;
     color: #b6cbc1;
-    border:  black;
+    border: black;
     border-radius: 20px;
     text-align: center;
-    background-color: rgba(82,83,76,0.8);
+    background-color: rgba(82, 83, 76, 0.8);
     padding: 10px;
-}
-
-.button-home {
-    padding-top: 200px;
-}
-.btn-light{
-    padding: 20px 30px 20px 30px;
-    border-radius: 20px;
-    background: black;
-    opacity: 0.8;
-
-}
-.btn-light a {
-    font-weight: 400;
-    text-align: center;
-    color: #fc9403;
 }
 
 /*Screen two*/
 
 .about_atelie{
     background: linear-gradient(to bottom,#fc9403,#583d81) fixed center center;
-    padding: 0 50px 150px 0;
+    margin: 0 auto;
 }
 .titles__about{
     font-size: 30px;
@@ -100,22 +78,18 @@ nav {
     text-align: center;
     padding: 15px 0 40px 0;
 }
-
-.atelierrom {
-    width: 715px;
-    margin-left: 75px;
-}
 .button_about {
     padding-top: 100px;
 }
 
 
-/*Screen 3*/
+/*Screen  carousel_wroks3*/
 .portfoli {
     background: linear-gradient(to bottom,#fc9403,#583d81) fixed center center;
 }
 .carousel {
     margin:auto;
+    padding-bottom: 40px;
 }
 .carousel-caption-title {
     color: #1b1e21;
@@ -129,4 +103,30 @@ nav {
 
 .services {
     background: linear-gradient(to bottom,#fc9403,#583d81) fixed center center;
+}
+
+/*Screen5 contact*/
+
+.contacts{
+    background: linear-gradient(to bottom,#fc9403,#583d81)fixed center center;
+}
+.footer_social_icons{
+    padding-right: 0;
+}
+.row{
+    padding: 0;
+    margin: 0;
+}
+/*footer*/
+
+.footer{
+    background:black;
+    color:white;
+    font-size:16px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.conteiner-fluid {
+    border-bottom: 10px solid black;
 }

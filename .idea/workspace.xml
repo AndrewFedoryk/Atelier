@@ -2,20 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f32db92-2ada-4807-a963-cfd7df78c25d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Atelier.iml" afterPath="$PROJECT_DIR$/.idea/Atelier.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Images/hobe.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/patterns.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/sample1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/sample2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/sample3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/sewing.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/ukrtradcloth.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/childrenscalculator" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/form.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/38303582-dressmaker-black-icons-set-with-tailor-and-fashion-designer-with-customers-isolated-vector-illustrat.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/JetBrains WebStorm 2016.3.2 Build #WS-163.9166.30 [2016,Eng] [rutracker-5345425].torrent" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/depositphotos_51649519-stock-illustration-tailoring-icons-vector-format.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/individual.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/tradcloth.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterPath="" />
       <change beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/form.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/form.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js.map" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,27 +45,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.53363484">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="561">
-                  <caret line="198" column="48" lean-forward="false" selection-start-line="198" selection-start-column="48" selection-end-line="198" selection-end-column="48" />
+                <state relative-caret-position="544">
+                  <caret line="38" column="51" lean-forward="true" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
                   <folding>
-                    <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="986">
-                  <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -60,9 +68,11 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="787">
-                  <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="170">
+                  <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#596#849#2" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -74,8 +84,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -101,8 +111,9 @@
         <option value="$PROJECT_DIR$/form.html" />
         <option value="$PROJECT_DIR$/js/childcalc.js" />
         <option value="$PROJECT_DIR$/childrenscalculator.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -112,11 +123,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="188" />
-    <option name="y" value="653" />
-    <option name="width" value="1609" />
-    <option name="height" value="474" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="633" />
+    <option name="y" value="200" />
+    <option name="width" value="1300" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -214,11 +225,17 @@
       <workItem from="1519552409057" duration="249000" />
       <workItem from="1519763677541" duration="5279000" />
       <workItem from="1519850981051" duration="4780000" />
+      <workItem from="1519856737263" duration="33000" />
+      <workItem from="1520075609350" duration="13000" />
+      <workItem from="1520075683100" duration="8241000" />
+      <workItem from="1520110923550" duration="8164000" />
+      <workItem from="1520156244421" duration="4179000" />
+      <workItem from="1520163532838" duration="15175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107483000" />
+    <option name="totallyTimeSpent" value="143288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -230,9 +247,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="633" y="200" width="1300" height="743" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09483667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.117601246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -265,13 +282,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/childrenscalculator" />
     <entry file="file://$PROJECT_DIR$/form.html" />
     <entry file="file://$PROJECT_DIR$/js/form.js" />
@@ -442,7 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="604" column="16" lean-forward="false" selection-start-line="604" selection-start-column="16" selection-end-line="604" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -465,20 +474,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/childrenscalculator.html" />
     <entry file="file://$PROJECT_DIR$/js/childcalc.js" />
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="198" column="48" lean-forward="false" selection-start-line="198" selection-start-column="48" selection-end-line="198" selection-end-column="48" />
+        <state relative-caret-position="544">
+          <caret line="38" column="51" lean-forward="true" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
           <folding>
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#596#849#2" expanded="true" />
           </folding>
         </state>
       </provider>
