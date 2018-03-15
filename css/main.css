@@ -10,6 +10,9 @@ body {
     background: url("../Images/homebackground.jpg") no-repeat fixed center center;
     background-size: cover;
 }
+#header_title {
+    padding-top: 180px;
+}
 /*NAVBAR_CUSTOM*/
 
 .navbar-custom {
@@ -148,4 +151,24 @@ body {
 
 .conteiner-fluid {
     border-bottom: 10px solid black;
+}
+
+/*buttonScrollTop*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(255,255,255,0.3);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#myBtn:hover {
+    background-color: #fc9403;
 }
