@@ -4,11 +4,15 @@ body {
     text-decoration: none;
     padding: 0;
     margin: 0;
+    /*height: 100vh; !* For 100% screen height *!*/
+    /*!*width:  100vw; !* For 100% screen width *!*!*/
 }
 
 .header {
     background: url("../Images/homebackground.jpg") no-repeat fixed center center;
     background-size: cover;
+    /*height: 100vh; !* For 100% screen height *!*/
+    /*!*width:  100vw; !* For 100% screen width *!*!*/
 }
 #header_title {
     padding-top: 180px;
@@ -93,6 +97,8 @@ body {
 .about_atelie{
     background: linear-gradient(to bottom,#fc9403,#583d81) fixed center center;
     margin: 0 auto;
+    /*height: 100vh; !* For 100% screen height *!*/
+    /*width:  100vw; !* For 100% screen width *!*/
 }
 .titles__about{
     font-size: 30px;
@@ -108,6 +114,8 @@ body {
 /*Screen  carousel_wroks3*/
 .portfoli {
     background: linear-gradient(to bottom,#fc9403,#583d81) fixed center center;
+    /*height: 100vh; !* For 100% screen height *!*/
+    /*!*width:  100vw; !* For 100% screen width *!*!*/
 }
 .carousel {
     margin:auto;
@@ -125,12 +133,24 @@ body {
 
 .services {
     background: linear-gradient(to bottom,#fc9403,#583d81) fixed center center;
+    /*height: 100vh; !* For 100% screen height *!*/
+    /*!*width:  100vw; !* For 100% screen width *!*!*/
 }
 
 /*Screen5 contact*/
 
 .contacts{
+    border-top: solid 10px #BDBAA6;
     background: linear-gradient(to bottom,#fc9403,#583d81)fixed center center;
+    /*height: 100vh; !* For 100% screen height *!*/
+    /*width:  100vw; !* For 100% screen width *!*/
+}
+
+.contacts_text {
+    padding-bottom: 340px;
+}
+.contacts_phone_email {
+    padding-bottom: 250px;
 }
 .footer_social_icons{
     padding-right: 0;
@@ -142,6 +162,7 @@ body {
 /*footer*/
 
 .footer{
+    border-top: solid 10px #BDBAA6;
     background:black;
     color:white;
     font-size:16px;
@@ -150,8 +171,15 @@ body {
 }
 
 .conteiner-fluid {
-    border-bottom: 10px solid black;
 }
+
+.social-ic {
+    font-size: 50px;
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+}
+
 
 /*buttonScrollTop*/
 #myBtn {
