@@ -4,15 +4,15 @@ body {
     text-decoration: none;
     padding: 0;
     margin: 0;
-    /*height: 100vh; !* For 100% screen height *!*/
-    /*!*width:  100vw; !* For 100% screen width *!*!*/
+    height: 100vh; /* For 100% screen height */
+    /*width:  100vw; !* For 100% screen width *!*/
 }
 
 .header {
     background: url("../Images/homebackground.jpg") no-repeat fixed center center;
     background-size: cover;
-    /*height: 100vh; !* For 100% screen height *!*/
-    /*!*width:  100vw; !* For 100% screen width *!*!*/
+    height: 100vh; /* For 100% screen height */
+    /*width:  100vw; !* For 100% screen width *!*/
 }
 #header_title {
     padding-top: 180px;
@@ -67,7 +67,7 @@ body {
 
 
 .titles{
-    padding: 50px 0 50px 0;
+    padding: 20px 0 50px 0;
     text-transform: uppercase;
     text-align: center;
 
@@ -80,7 +80,13 @@ body {
     color: #fc9403;
 }
 
+/*.titles_services {*/
+    /*padding-top: 10px;*/
+    /*text-transform: uppercase;*/
+    /*text-align: center;*/
 
+    /*font-weight: 700;*/
+/*}*/
 
 .titles__text {
     font-size: 30px;
@@ -95,33 +101,30 @@ body {
 /*Screen two*/
 
 .about_atelie{
+    border-top: solid 10px #BDBAA6;
     background: linear-gradient(to bottom,#fc9403,#583d81) fixed center center;
     margin: 0 auto;
     /*height: 100vh; !* For 100% screen height *!*/
-    /*width:  100vw; !* For 100% screen width *!*/
+
 }
 .titles__about{
     font-size: 30px;
     color: black;
     text-align: center;
-    padding: 15px 0 40px 0;
-}
-.button_about {
-    padding-top: 100px;
+    padding: 15px 0 0 0;
 }
 
 
 /*Screen  carousel_wroks3*/
 .portfoli {
+    border-top: solid 10px #BDBAA6;
     background: linear-gradient(to bottom,#fc9403,#583d81) fixed center center;
-    /*height: 100vh; !* For 100% screen height *!*/
-    /*!*width:  100vw; !* For 100% screen width *!*!*/
+    height: 100vh; /* For 100% screen height */
+
 }
 .carousel {
     margin:auto;
     padding-bottom: 40px;
-}
-.carousel-caption-title {
     color: #1b1e21;
 }
 .carousel-caption-text {
@@ -132,25 +135,27 @@ body {
 /*Screen 4*/
 
 .services {
+    border-top: solid 10px #BDBAA6;
     background: linear-gradient(to bottom,#fc9403,#583d81) fixed center center;
     /*height: 100vh; !* For 100% screen height *!*/
-    /*!*width:  100vw; !* For 100% screen width *!*!*/
+
 }
 
 /*Screen5 contact*/
 
 .contacts{
+    padding: 0 auto;
     border-top: solid 10px #BDBAA6;
     background: linear-gradient(to bottom,#fc9403,#583d81)fixed center center;
     /*height: 100vh; !* For 100% screen height *!*/
-    /*width:  100vw; !* For 100% screen width *!*/
+
 }
 
 .contacts_text {
-    padding-bottom: 340px;
+    padding-bottom: 220px;
 }
 .contacts_phone_email {
-    padding-bottom: 250px;
+    padding-bottom: 200px;
 }
 .footer_social_icons{
     padding-right: 0;
@@ -200,4 +205,44 @@ body {
 #myBtn:hover {
     background-color: #fc9403;
 }
+.elem{
 
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.elem:hover {
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotate;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotate {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(360deg);}
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
